@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Horse
+        </title>
+
+        <style>
+            img#horseRight {
+                float: right
+            }
+
+            img#horseLeft {
+                float:left
+            }
+
+            .p {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h2>Float Right</h2>
+
+        <p>In this example, the image will float to the right 
+            in the paragraph, and the text in the paragraph will 
+            wrap around the image.</p>
+
+        <p>
+            <img id="horseRight" 
+            src="https://media.istockphoto.com/id/95369557/photo/a-brown-sharp-horse-galloping.jpg?s=612x612&w=0&k=20&c=GBrsCL0SUOfutsfIirC1lE-5H32pX9fQrfvqFwfD0AE=" 
+            style="width:100px; height:100px; ">
+            
+            <img id="horseLeft" 
+            src="https://media.istockphoto.com/id/95369557/photo/a-brown-sharp-horse-galloping.jpg?s=612x612&w=0&k=20&c=GBrsCL0SUOfutsfIirC1lE-5H32pX9fQrfvqFwfD0AE=" 
+            style="width:100px; height:100px; ">
+
+            <div class = p>
+                This is a dummy content used to understand float property
+            </div>
+        </p>
+    </body>
+</html>
